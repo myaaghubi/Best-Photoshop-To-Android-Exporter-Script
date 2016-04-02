@@ -1,4 +1,4 @@
-Photoshop To Android Exporter Script 1
+Photoshop To Android Exporter Script 1.1
 =================================
 
 A script for exporting assets from photoshop to android mipmap/drawable resources.<br>
