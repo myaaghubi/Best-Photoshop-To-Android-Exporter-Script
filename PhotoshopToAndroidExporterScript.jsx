@@ -228,14 +228,16 @@ function createOneItemSelectionPanel2(array, parent) {
 };
 
 function resizeDoc(width, mdpi, multiplayer) {
+	var newWidth = 1;
 	if (mdpi>1) {
 		var imageBaseRateWidth = mdpi/width;
-		width = multiplayer*imageBaseRateWidth*100;
+		newWidth = multiplayer*mdpi;
+		alert(newWidth+"-"+width);
 	} else {
-		width = multiplayer*width;
+		newWidth = multiplayer*width;
 	}
 
-	resizeLayer(width);
+	resizeLayer(newWidth);
 	activeLayer2.merge();
 }
 
