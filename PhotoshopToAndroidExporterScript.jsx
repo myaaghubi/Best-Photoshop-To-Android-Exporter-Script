@@ -168,7 +168,7 @@ function makeOutPut(multiplayer, mdpi, suffix, resAddress) {
 
 
 function createOneItemSelectionPanel0(array, parent) {
-    var panel = parent.add("panel", undefined, "Image type");
+    var panel = parent.add("panel", undefined, "Target type");
 	panel.alignment = "top";
     panel.alignChildren = "left";
     for(var i = 0; i < array.length;  i++) {
@@ -188,7 +188,7 @@ function createOneItemSelectionPanel0(array, parent) {
     }
 };
 function createMultiSelectionPanel1(array, parent) {
-    var panel = parent.add("panel", undefined, "Icon sizes");
+    var panel = parent.add("panel", undefined, "Icon Density");
     panel.alignChildren = "left";
     for(var i = 0; i < array.length;  i++) {
         var cb = panel.add("checkbox", undefined, "\u00A0" + array[i].name);
@@ -207,7 +207,7 @@ function createMultiSelectionPanel1(array, parent) {
     }
 };
 function createOneItemSelectionPanel2(array, parent) {
-    var panel = parent.add("panel", undefined, "Target type");
+    var panel = parent.add("panel", undefined, "Target path");
 	panel.alignment = "top";
     panel.alignChildren = "left";
     for(var i = 0; i < array.length;  i++) {
