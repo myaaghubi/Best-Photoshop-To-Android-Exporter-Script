@@ -232,7 +232,6 @@ function resizeDoc(width, mdpi, multiplayer) {
 	if (mdpi>1) {
 		var imageBaseRateWidth = mdpi/width;
 		newWidth = multiplayer*mdpi;
-		alert(newWidth+"-"+width);
 	} else {
 		newWidth = multiplayer*width;
 	}
