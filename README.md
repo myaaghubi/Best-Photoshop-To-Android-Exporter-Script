@@ -11,9 +11,9 @@ Also you can run the script in Photoshop by choosing *File > Scripts > Browse*.
 
 Options
 ---
-Image type
+Target type
 ```
-	Image type
+	Target type
 	├─── Free size drawable(target mdpi width=free)
 	├─── Launcher icons(standard icons - target mdpi width=48px)
 	├─── Action bar, Dialog & Tab icons(target mdpi width=32px)
@@ -21,9 +21,9 @@ Image type
 	└─── Notification icons(target mdpi width=24px)
 ```
 
-Icon sizes
+Icon Density
 ```
-	Icon sizes
+	Icon Density
 	├─── ldpi		0.75x
 	├─── mdpi		1x
 	├─── hdpi		1.5x
@@ -32,9 +32,9 @@ Icon sizes
 	└─── xxxhdpi	4x
 ```
 
-Target type
+Target path
 ```
-	Target type
+	Target path
 	├─── Mipmap		/mipmap-mdpi ...
 	└─── Drawable	/drawable-mdpi ...
 ```
