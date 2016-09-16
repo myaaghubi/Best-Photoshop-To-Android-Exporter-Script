@@ -69,7 +69,7 @@ var targetFolder;
 
 var selectedImageTypes = {};
 var selectedSuffixs = {};
-var selectedAddress = {};
+var selectedAddress = "";
 
 
 // variables
@@ -111,17 +111,11 @@ function showOptionsPanel(){
 					iconType = selectedImageTypes[key];
 				}
 			}
-			var targetaddress;
-			for (var key in selectedAddress) {
-				if (selectedAddress.hasOwnProperty(key)) {
-					targetaddress = selectedAddress[key];
-				}
-			}
 			for (var key in selectedSuffixs) {
 				if (selectedSuffixs.hasOwnProperty(key)) {
 					var item = selectedSuffixs[key];
 					
-					makeOutPut(item.multiplayer, iconType.mdpi, item.name, targetaddress.address);
+					makeOutPut(item.multiplayer, iconType.mdpi, item.name, selectedAddress);
 				}
 			}
 			this.parent.parent.close();
@@ -214,16 +208,19 @@ function createOneItemSelectionPanel2(array, parent) {
         var cb = panel.add("radiobutton", undefined, "\u00A0" + array[i].name);
         cb.item = array[i];
 		if (i==1) {
+			cb.itemId = 1;
 			cb.value = true;
-			selectedAddress[cb.item.name] = cb.item;
-		}
-        cb.onClick = function() {
-            if(this.value) {
-                selectedAddress[this.item.name] = this.item;
-            } else {
-                delete selectedAddress[this.item.name];
-            }
-        };
+			selectedAddress = array[1].address; 
+			cb.onClick = function() {
+				selectedAddress = targetAddress[1].address;
+			};
+		} else {
+			cb.itemId = 0;
+			selectedAddress = array[0].address;      
+			cb.onClick = function() {
+				selectedAddress = targetAddress[0].address;
+			};
+		} 
     }
 };
 
