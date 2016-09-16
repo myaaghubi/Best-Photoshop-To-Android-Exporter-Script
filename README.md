@@ -1,12 +1,12 @@
-Photoshop To Android Exporter Script 1.2
+Best Photoshop To Android Exporter Script 1.2.1
 =================================
 
-A script for exporting assets from photoshop to android mipmap/drawable resources.<br>
+Best script for exporting assets from photoshop to android mipmap/drawable resources.<br>
 ![Alt text](/screenshot/shot1.png?raw=true "ScreenShot")
 
 Usage
 ---
-Copy *PhotoshopToAndroidExporterScript.jsx* to Adobe Photoshop *Adobe Photoshop CC/Presets/Scripts* folder, after done the script will appear in the *File > Scripts* submenu.
+Copy *BestPhotoshopToAndroidExporterScript.jsx* to Adobe Photoshop *Adobe Photoshop/Presets/Scripts* folder, after done the script will appear in the *File > Scripts* submenu.
 Also you can run the script in Photoshop by choosing *File > Scripts > Browse*.
 
 Options
