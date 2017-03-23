@@ -1,4 +1,4 @@
-Best Photoshop To Android Exporter Script 1.2.1
+Best Photoshop To Android Exporter Script 1.3.0
 =================================
 
 Best script for exporting assets from photoshop to android mipmap/drawable resources.<br>
@@ -14,22 +14,24 @@ Options
 Target type
 ```
 	Target type
-	├─── Free size drawable(target mdpi width=free)
 	├─── Launcher icons(standard icons - target mdpi width=48px)
 	├─── Action bar, Dialog & Tab icons(target mdpi width=32px)
 	├─── Small Contextual Icons(target mdpi width=16px)
-	└─── Notification icons(target mdpi width=24px)
+	├─── Notification icons(target mdpi width=24px)
+	|
+	├─── Custom size(target mdpi width=entered custom number)
+	└─── Free size drawable(target mdpi width=free)
 ```
 
 Icon Density
 ```
 	Icon Density
-	├─── ldpi		0.75x
-	├─── mdpi		1x
-	├─── hdpi		1.5x
-	├─── xhdpi		2x
-	├─── xxhdpi		3x
-	└─── xxxhdpi	4x
+	├─── ldpi   0.75x
+	├─── mdpi	     1x
+	├─── hdpi    1.5x
+	├─── xhdpi     2x
+	├─── xxhdpi    3x
+	└─── xxxhdpi   4x
 ```
 
 Target path
@@ -44,7 +46,7 @@ Target path
 License
 ---
 ```
-Copyright 2016 Mohammad Yaghobi
+Copyright 2017 Mohammad Yaghobi
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
