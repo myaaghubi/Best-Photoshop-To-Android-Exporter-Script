@@ -27,7 +27,7 @@ Icon Density
 ```
 	Icon Density
 	├─── ldpi   0.75x
-	├─── mdpi	     1x
+	├─── mdpi      1x
 	├─── hdpi    1.5x
 	├─── xhdpi     2x
 	├─── xxhdpi    3x
@@ -37,8 +37,8 @@ Icon Density
 Target path
 ```
 	Target path
-	├─── Mipmap		/mipmap-mdpi ...
-	└─── Drawable	/drawable-mdpi ...
+	├─── Mipmap      /mipmap-mdpi ...
+	└─── Drawable    /drawable-mdpi ...
 ```
 
 
