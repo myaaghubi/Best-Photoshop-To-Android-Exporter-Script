@@ -37,11 +37,13 @@ Icon Density
 Target path
 ```
 	Target path
-	├─── Mipmap      /mipmap-mdpi ...
-	└─── Drawable    /drawable-mdpi ...
+	├─── Mipmap	/mipmap-mdpi ...
+	└─── Drawable	/drawable-mdpi ...
 ```
 
-
+Photoshop Version
+---
+[Best Illustrator To Android Exporter Script](https://github.com/myaghobi/Best-Illustrator-To-Android-Exporter-Script/ "Best Illustrator To Android Exporter Script")
 
 License
 ---
