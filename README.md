@@ -41,7 +41,7 @@ Target path
 	└─── Drawable	/drawable-mdpi ...
 ```
 
-Photoshop Version
+Illustrator Version
 ---
 [Best Illustrator To Android Exporter Script](https://github.com/myaghobi/Best-Illustrator-To-Android-Exporter-Script/ "Best Illustrator To Android Exporter Script")
 
