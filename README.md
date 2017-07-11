@@ -2,7 +2,7 @@ Best Photoshop To Android Exporter Script 1.3.0
 =================================
 
 Best script for exporting assets from photoshop to android mipmap/drawable resources.<br>
-![Alt text](/screenshot/shot1.png?raw=true "ScreenShot")
+![Alt text](screenshot/shot1.png?raw=true "ScreenShot")
 
 Usage
 ---
@@ -13,32 +13,32 @@ Options
 ---
 Target type
 ```
-	Target type
-	├─── Launcher icons(standard icons - target mdpi width=48px)
-	├─── Action bar, Dialog & Tab icons(target mdpi width=32px)
-	├─── Small Contextual Icons(target mdpi width=16px)
-	├─── Notification icons(target mdpi width=24px)
-	|
-	├─── Custom size(target mdpi width=entered custom number)
-	└─── Free size drawable(target mdpi width=free)
+    Target type
+    ├─── Launcher icons(standard icons - target mdpi width=48px)
+    ├─── Action bar, Dialog & Tab icons(target mdpi width=32px)
+    ├─── Small Contextual Icons(target mdpi width=16px)
+    ├─── Notification icons(target mdpi width=24px)
+    |
+    ├─── Custom size(target mdpi width=entered custom number)
+    └─── Free size drawable(target mdpi width=free)
 ```
 
 Icon Density
 ```
-	Icon Density
-	├─── ldpi   0.75x
-	├─── mdpi      1x
-	├─── hdpi    1.5x
-	├─── xhdpi     2x
-	├─── xxhdpi    3x
-	└─── xxxhdpi   4x
+    Icon Density
+    ├─── ldpi   0.75x
+    ├─── mdpi      1x
+    ├─── hdpi    1.5x
+    ├─── xhdpi     2x
+    ├─── xxhdpi    3x
+    └─── xxxhdpi   4x
 ```
 
 Target path
 ```
-	Target path
-	├─── Mipmap	/mipmap-mdpi ...
-	└─── Drawable	/drawable-mdpi ...
+    Target path
+    ├─── Mipmap		/mipmap-mdpi ...
+    └─── Drawable	/drawable-mdpi ...
 ```
 
 Illustrator Version
