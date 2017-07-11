@@ -43,7 +43,7 @@ Target path
 
 Illustrator Version
 ---
-[Best Illustrator To Android Exporter Script](http://myaghobi.github.io/Best-Illustrator-To-Android-Exporter-Script/ "ScreenShot Best Illustrator To Android Exporter Script")
+[Best Illustrator To Android Exporter Script](http://myaghobi.github.io/Best-Illustrator-To-Android-Exporter-Script/ "Best Illustrator To Android Exporter Script")
 
 License
 ---
