@@ -2,7 +2,7 @@ Best Photoshop To Android Exporter Script 1.3.0
 =================================
 
 Best script for exporting assets from photoshop to android mipmap/drawable resources.<br>
-![Alt text](screenshot/shot1.png?raw=true "ScreenShot")
+![Alt text](screenshot/shot1.png?raw=true "ScreenShot Best Photoshop To Android Exporter Script")
 
 Usage
 ---
